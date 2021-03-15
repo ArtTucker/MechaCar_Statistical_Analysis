@@ -22,6 +22,15 @@ AutosRUs' new MechaCar is "suffering from production troubles" and the company i
 ![Suspension Coil Lot Summary](images/sus_coil_lot_sum.png)
 * While the overall variance, as shown in the Total Summary data above, is under 100 psi and meets specifications, there is a problem with one of the individual lots. As shown in the Lot Summary stats, the variance for Lot 3 is well over the acceptable threshold, at 170.28.
 
-### Deliverable 3
+### T-Tests on Suspension Coils
+Suspension Coils Cumulative T-test
+![Suspension Coils Cumulative T-test](images/sus_coil_one_samp_ttest.png)
+* A review of the results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the p-value is not low enough (0.0603) for us to reject the null hypothesis.
+![Suspension Coil Lot 1 T-test](images/sus_coil_lot1_samp_ttest.png)
+* A review of the results of the T-test for the suspension coils for Lot 1 shows that they are not statistically different from the population mean, and the p-value is not low enough (1) for us to reject the null hypothesis.
+![Suspension Coil Lot 2 T-test](images/sus_coil_lot2_samp_ttest.png)
+* A review of the results of the T-test for the suspension coils for Lot 2 shows that they are not statistically different from the population mean, and the p-value is not low enough (0.6072) for us to reject the null hypothesis.
+![Suspension Coil Lot 3 T-test](images/sus_coil_lot3_samp_ttest.png)
+* A review of the results of the T-test for the suspension coils for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value is just low enough (0.0417) for us to reject the null hypothesis. This lot may be need to be discarded, or at least more closely evaluated.
 
 ## Summary
